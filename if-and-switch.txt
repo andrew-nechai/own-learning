@@ -1,0 +1,54 @@
+// инкремент (++) и декремент (--).
+#include <iostream>   // подключение библиотеки работы с консолью
+ 
+using namespace std;  // пространство имен
+
+void main()
+{
+	setlocale(LC_ALL, "ru");
+	int a=1;
+	bool b;
+
+	b = true;
+
+	if (b)
+	{
+		cout << a << endl;
+	}
+	//
+	/*
+	if (...) 
+	{
+	...
+	}
+	else 
+	{
+	...
+	}*/
+	// оператор switch
+	/*
+	int f;
+	switch (f)
+	case 1
+		....
+		break
+	case 2
+		...
+		break
+	default              выполнитс€ если ни один из case не выполнитс€ 
+		...   
+		break
+	*/
+	
+	int f;
+	
+	cin >> f;
+	if (f % 2 == 0)
+	{
+		cout << "¬ы ввели четное число";
+	}
+	else
+	{
+		cout << "¬ы ввели нечетное число";
+	}
+}

@@ -1,0 +1,24 @@
+int main()
+{
+	setlocale(LC_ALL, "ru");
+	int a;
+	cin >> a;
+	while (a<20)
+	{
+		cout << a << endl;
+		a++;
+	}
+}
+
+///////////////////////////////////////
+
+setlocale(LC_ALL, "ru");
+	int a;
+	cin >> a;
+	do
+	{
+		cout << a << endl;
+		a++;
+
+
+	} while (a < 20);
